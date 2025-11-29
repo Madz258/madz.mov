@@ -9,19 +9,28 @@
     --background: rgba(0, 0, 0, 0.705);
     --accent: #2151ab;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 body {
+    margin: 0;
     background: url(/assets/backgrounds/bg3.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     color: white;
+    text-shadow: 2px 2px #303030;
     font-family: 'IBM';
     background-color: black;
 }
 div.container {
+    width: 80%;
     margin-top: 40px;
     padding: 5px 5px;
+    margin: 14px auto;
 }
 
 /* NavBar */
@@ -41,6 +50,7 @@ nav div.wordart {
     animation: titletext 3s linear infinite;
     vertical-align: middle;
     margin-top: 5px;
+    text-shadow: none;
 }
 nav div.wordart h1 {
     margin-top: -10px;
@@ -64,23 +74,19 @@ nav a:hover {
 }
 
 /* Main */
-main {
-    max-width: 70vw;
-    margin-left: auto;
-    margin-right: auto;
-}
 main div.box {
     background-color: rgba(0, 0, 0, 0.705);
     font-size: 18px;
-    box-shadow: 6px 6px var(--accent);
-    border-radius: 10px;
+    box-shadow: 10px 10px 0px 0px var(--accent);
+    border-radius: 4px;
     padding: 2px 10px;
     height: 100%;
+    width: 100%;
     backdrop-filter: blur(5px);
+    overflow-wrap: break-word;
 }
 main h1 {
     font-size: 3rem;
-    margin-top: 0;
     margin-bottom: 0;
     background: linear-gradient(90deg, var(--accent), #5b80c5, #b3c6eb, var(--accent));
     background-size: 200% auto;
@@ -88,11 +94,13 @@ main h1 {
     background-clip: text;
     color: transparent;
     animation: titletext 3s linear infinite;
+    text-shadow: none;
 }
 main a {
     color: #9bb8f0;
     text-decoration: none;
     transition: 0.3s;
+    text-shadow: 2px 2px #081327;
 }
 main a:hover {
     color: var(--accent);
@@ -129,6 +137,8 @@ main ul.socials {
     padding: 0;
     gap: 5px;
     margin-top: 0;
+    overflow-wrap: break-word;
+    flex-wrap: wrap;
 }
 main ul.socials li a {
     color: var(--accent);
@@ -239,4 +249,45 @@ div.eightybuttons img:hover {
   100% {
     background-position: 0% 50%;
   }
+}
+
+/* mobile stuff */
+@media screen and (max-width: 900px) {
+    body {
+        background-size: cover;
+        overflow-x: hidden;
+    }
+    div.container {
+        margin: 2px auto;
+        width: 90%;
+    }
+    nav {
+        height: auto;
+        text-align: center;
+        padding-top: 5px;
+    }
+    nav div.wordart,
+    nav div.links {
+        float: none;
+        display: block;
+        margin: 5px auto;
+    }
+    nav a {
+        font-size: 1.1rem;
+    }
+    main div.box {
+        overflow-y: auto;
+        box-shadow: 5px 5px 0px 0px var(--accent);
+    }
+    main h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    main ul.socials {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    div.eightybuttons img {
+        width: 65px;
+    }
 }
