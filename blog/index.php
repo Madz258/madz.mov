@@ -8,6 +8,7 @@
         <title>Home - MadzTop</title>
         <link rel="icon" type="image/x-icon" href="/assets/images/icons/favicon.ico">
         <script src="https://kit.fontawesome.com/5227b94534.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div class="container">
