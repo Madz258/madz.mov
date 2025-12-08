@@ -89,6 +89,7 @@
                     <p>It has only been softmodded with its original hard drive so I haven't really done much with it yet.</p>
                 </div>
             </main>
+            <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
         </div>
     </body>
 </html>

@@ -238,6 +238,12 @@ div.eightybuttons img:hover {
     box-shadow: 1px 1px var(--accent);
 }
 
+/* Footer */
+footer {
+    margin-top: 20px;
+    margin-left: 13px;
+}
+
 /* animations */
 @keyframes titletext {
   0% {
