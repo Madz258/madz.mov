@@ -35,7 +35,7 @@
                         <li>GPU: Intel Iris Xe Graphics [Integrated]</li>
                         <li>RAM: 32GB DDR4 SODIMM</li>
                         <li>Storage: 512GB Samsung NVME, 1TB PNY Sata SSD, 4TB Seagate external HDD</li>
-                        <li>OS: Arch Linux</li>
+                        <li>OS: Proxmox 8.4</li>
                     </ul>
                     <h2>Aquamarine <small style="font-size: 12px; opacity: 0.2;">Google Pixel 9a</small></h2>
                     <p>My main phone. It currently has the beta preview of Android along with a bunch of apps and stuff</p>
