@@ -15,6 +15,5 @@ ini_set('display_errors', 1);
         <a href="/projects/" class="<?= str_starts_with($current, '/projects/') ? 'active' : '' ?>">Projects</a>
         <a href="/services/" class="<?= str_starts_with($current, '/services/') ? 'active' : '' ?>">Services</a>
         <a href="/uses/" class="<?= str_starts_with($current, '/uses/') ? 'active' : '' ?>">Uses</a>
-        <a href="https://wiki.madz.mov">Wiki</a>
     </div>
 </nav>
