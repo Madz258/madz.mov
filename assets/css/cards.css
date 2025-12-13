@@ -24,15 +24,15 @@
 	text-decoration: inherit;
 	color: inherit;
 	background-color: var(--background);
-	border: 1px solid var(--accent);
+	border: 2px solid var(--accent);
 	border-radius: 7px;
-	box-shadow: 6px 6px var(--accent);
+	box-shadow: 6px 6px transparent;
     transition: 0.2s ease;
 }
 
 .cards .card.link:hover {
     transform: translate(3px, 3px);
-	box-shadow: 3px 3px var(--accent);
+	box-shadow: 3px 3px transparent;
 	text-decoration: none;
 	color: white;
 }

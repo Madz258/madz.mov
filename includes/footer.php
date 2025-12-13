@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 ?>
 
 <footer>
-    <span>(ɔ) MadzNet 2025</span>
+    <span>(ɔ) MadzNet 2025 - <a href="https://status.madz.mov">Status</a> - <a href="https://github.com/Madz258/madz.mov">Source</a></span>
     <br>
     <span id="randomfoot"></span>
 </footer>

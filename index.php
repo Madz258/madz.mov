@@ -15,7 +15,7 @@
             <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/navbar.php'; ?>
             <main>
                 <div class="box">
-                    <h1 class="title">Madz.mov</h1>
+                    <br>
                     <p>Hi, I'm madz, welcome to my site!</p>
                     <p>I've always used computers ever since I had consciousness. I currently use linux for all my needs and windows when I really need to. I host a lot of files and other old pc and game console stuff. I currently use this site and domain for some of my self-hosting needs and other things.</p>
                     <p>Thanks for visiting!</p>
