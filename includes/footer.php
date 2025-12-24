@@ -21,6 +21,7 @@ ini_set('display_errors', 1);
         "Communicating on frequencies you ain't ever heard of",
         "Why are you angry at me?",
         "MR TELEPHONE MAN THERES SOMETHING WRONG WITH MY LINEEEEEEEEEEE",
+        "Did you know future sampled miku",
         "I named this one jpeg"
     ];
 
