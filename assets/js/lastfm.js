@@ -5,7 +5,7 @@ var lastfmJsonURL = {
                 // Your Last.fm Username
                 user: "Madz258",
                 // Your API key
-                api_key: "e97d063fb9c943c1a73c7bfaa9273a75",
+                api_key: "",
                 additional: "&format=json&limit=1"
             };
 
