@@ -16,8 +16,11 @@ ini_set('display_errors', 1);
         "Wake up f1lthy",
         "I'm cooler than a cooler, Big shouts out to my jeweler",
         "I can't spell sober",
-        "Vodka is the best uma, fight me",
+        "Maruzensky is the best uma, fight me",
         "App to destroy all opps",
+        "Communicating on frequencies you ain't ever heard of",
+        "Why are you angry at me?",
+        "MR TELEPHONE MAN THERES SOMETHING WRONG WITH MY LINEEEEEEEEEEE",
         "I named this one jpeg"
     ];
 
