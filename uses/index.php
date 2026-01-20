@@ -17,14 +17,27 @@
                 <div class="box">
                     <h1 class="title">Uses</h1>
                     <h1>Computers</h1>
-                    <h2>Gold Ship <small style="font-size: 12px; opacity: 0.2;">Lenovo ideapad 3</small></h2>
-                    <p>This is my main computer... or well laptop. Currently it runs linux and is what I mainly use for day by day tasks.</p>
+                    <h2>Rudolf <small style="font-size: 12px; opacity: 0.2;">Custom Built PC</small></h2>
+                    <p>The main computer I use.</p>
+                    <p>Here are some of the specs:</p>
+                    <ul>
+                        <li>CPU: AMD Ryzen 5 8500G</li>
+                        <li>GPU: AMD Radeon 740m [Integrated]</li>
+                        <li>GPU: AMD Radeon RX 9060 XT [Integrated]</li>
+                        <li>RAM: 16GB DDR5 DIMM</li>
+                        <li>SSD 1: 1TB WD Blue NVME (Arch Linux)</li>
+                        <li>SSD 2: 500GB PNY CS900 (Windows 10)</li>
+                        <li>HDD: 4TB WD Blue</li>
+                        <li>OS: Arch Linux + Windows 10 (Dual Boot)</li>
+                    </ul>
+                    <h2>Maruzensky <small style="font-size: 12px; opacity: 0.2;">Lenovo ideapad 3</small></h2>
+                    <p>Main Laptop. Currently it runs linux and is what I mainly use for travel.</p>
                     <p>Here are some of the specs:</p>
                     <ul>
                         <li>CPU: Intel Core i5-1135G7</li>
                         <li>GPU: Intel Iris Xe Graphics [Integrated]</li>
                         <li>RAM: 20GB DDR4 SODIMM</li>
-                        <li>Storage: 1TB WD Blue NVME</li>
+                        <li>Storage: 500GB Crucial NVME</li>
                         <li>OS: Arch Linux</li>
                     </ul>
                     <h2>Vodka <small style="font-size: 12px; opacity: 0.2;">Minisfourm NAB9</small></h2>
