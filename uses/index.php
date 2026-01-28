@@ -23,7 +23,7 @@
                     <ul>
                         <li>CPU: AMD Ryzen 5 8500G</li>
                         <li>GPU: AMD Radeon 740m [Integrated]</li>
-                        <li>GPU: AMD Radeon RX 9060 XT [Integrated]</li>
+                        <li>GPU: AMD Radeon RX 9060 XT [Dedicated]</li>
                         <li>RAM: 16GB DDR5 DIMM</li>
                         <li>SSD 1: 1TB WD Blue NVME (Arch Linux)</li>
                         <li>SSD 2: 500GB PNY CS900 (Windows 10)</li>
